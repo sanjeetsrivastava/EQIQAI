@@ -156,7 +156,13 @@ p{margin:0}
 .contact-grid>div{max-width:760px}
 .contact h2{font-size:clamp(34px,4.4vw,54px)}
 .contact .lead{margin-top:20px;color:var(--muted);max-width:540px}
-.addr{margin-top:28px;padding-left:18px;border-left:4px solid var(--sun);font-size:15px;color:var(--muted)}
+.reach{list-style:none;padding:0;margin:32px 0 0;display:grid;gap:12px;max-width:460px}
+.reach a{display:flex;align-items:center;gap:16px;background:#fff;border-radius:18px;padding:16px 20px;box-shadow:0 14px 34px -26px rgba(11,38,62,.55);transition:transform .2s,box-shadow .2s}
+.reach a:hover{transform:translateY(-3px);box-shadow:0 20px 40px -24px rgba(11,38,62,.6)}
+.reach .ric{flex:none;width:48px;height:48px;border-radius:14px;background:color-mix(in srgb,var(--c) 14%,#fff);color:var(--c);display:grid;place-items:center}
+.reach small{display:block;font-size:13px;font-weight:600;color:var(--muted);letter-spacing:.04em}
+.reach b{font-family:var(--display);font-size:20px;color:var(--navy);letter-spacing:-.01em}
+.addr{margin-top:24px;padding-left:18px;border-left:4px solid var(--sun);font-size:15px;color:var(--muted)}
 
 /* footer */
 footer{background:var(--navy);color:#c4d6d6;padding:56px 0 30px}
